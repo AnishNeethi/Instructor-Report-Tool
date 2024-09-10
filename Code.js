@@ -70,8 +70,6 @@ function emailAdmin(){
     <p>Dear highly esteemed Administrator,</p>
       <p>
       <p>
-    I appologize for the late submission of this assignment. I required this time to refine my assignment and develop further features to bring it to a 100% level. This assignment has been a thrill to work on. I feel as though I have developed my skills quite a bit and reawakened my passion once again. 
-    <p>
 
     Please find the url to my Class Mark Breakdown below. Do not worry to much about the few outliers in the very low tier, they will be up with their peers in no time. After all my course is VERY CHALLENGING. 
 
@@ -162,7 +160,7 @@ class MarksDriver {
       }
     }
     if (highest >= 99){
-      statement = " Note: Recommend that student 'gets a life'*.(*just-kidding)"
+      statement = " Note: Recommend that student 'tries harder"
     }
     SpreadsheetApp.getUi().alert(`The highest scorer is: ${student}, with a mark of ${highest}%.${statement}`);
   }
